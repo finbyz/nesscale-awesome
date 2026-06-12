@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nesscale_awesome *.css
+recursive-include nesscale_awesome *.csv
+recursive-include nesscale_awesome *.html
+recursive-include nesscale_awesome *.ico
+recursive-include nesscale_awesome *.js
+recursive-include nesscale_awesome *.json
+recursive-include nesscale_awesome *.md
+recursive-include nesscale_awesome *.png
+recursive-include nesscale_awesome *.py
+recursive-include nesscale_awesome *.svg
+recursive-include nesscale_awesome *.txt
+recursive-exclude nesscale_awesome *.pyc
